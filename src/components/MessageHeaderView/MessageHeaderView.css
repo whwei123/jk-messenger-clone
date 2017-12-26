@@ -1,3 +1,40 @@
 .MessageHeaderView-container {
   height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.MessageHeaderView-container .contact-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.MessageHeaderView-container .button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.MessageHeaderView-container .name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.MessageHeaderView-container .status {
+  font-size: 11px;
+}
+
+.MessageHeaderView-container .button {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+
+  border: none;
+  border-radius: 12px;
+  background-color: #4892C1;
 }

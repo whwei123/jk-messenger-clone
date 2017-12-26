@@ -1,19 +1,19 @@
-.ConversationListItemView {
+.ConversationListItemView-container {
   display: flex;
   align-items: center;
   height: 64px;
   padding: 0 12px 0 12px;
 }
 
-.ConversationListItemView:hover {
+..ConversationListItemView-container:hover {
   background-color: rgba(0, 0, 0, .05);
 }
 
-.ConversationListItemView:active {
+..ConversationListItemView-container:active {
   background-color: rgba(0, 0, 0, .1);
 }
 
-.ConversationListItemView .profile-picture-container {
+..ConversationListItemView-container .profile-picture-container {
   width: 50px;
   height: 50px;
   background-color: #cddc39;
@@ -21,22 +21,22 @@
   margin-right: 9px;
 }
 
-.ConversationListItemView .text-container {
+..ConversationListItemView-container .text-container {
   text-align: left;
   display: flex;
   flex-grow: 1;
   flex-direction: column;
 }
 
-.ConversationListItemView .top-text-container {
+..ConversationListItemView-container .top-text-container {
   display: flex;
   justify-content: space-between;
 }
 
-.ConversationListItemView .text-container .preview {
+..ConversationListItemView-container .text-container .preview {
   color: #999999;
 }
 
-.ConversationListItemView .text-container .timestamp {
+..ConversationListItemView-container .text-container .timestamp {
   color: #999999;
 }

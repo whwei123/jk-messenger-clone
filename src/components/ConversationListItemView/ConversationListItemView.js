@@ -4,7 +4,7 @@ import './ConversationListItemView.css';
 class ConversationListItemView extends Component {
 	render() {
 		return (
-			<div className="ConversationListItemView">
+			<div className="ConversationListItemView-container">
 				<div className="profile-picture-container">
 					{/* add <img> here */}
 				</div>
