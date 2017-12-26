@@ -5,15 +5,15 @@
   padding: 0 12px 0 12px;
 }
 
-..ConversationListItemView-container:hover {
+.ConversationListItemView-container:hover {
   background-color: rgba(0, 0, 0, .05);
 }
 
-..ConversationListItemView-container:active {
+.ConversationListItemView-container:active {
   background-color: rgba(0, 0, 0, .1);
 }
 
-..ConversationListItemView-container .profile-picture-container {
+.ConversationListItemView-container .profile-picture-container {
   width: 50px;
   height: 50px;
   background-color: #cddc39;
@@ -21,22 +21,22 @@
   margin-right: 9px;
 }
 
-..ConversationListItemView-container .text-container {
+.ConversationListItemView-container .text-container {
   text-align: left;
   display: flex;
   flex-grow: 1;
   flex-direction: column;
 }
 
-..ConversationListItemView-container .top-text-container {
+.ConversationListItemView-container .top-text-container {
   display: flex;
   justify-content: space-between;
 }
 
-..ConversationListItemView-container .text-container .preview {
+.ConversationListItemView-container .text-container .preview {
   color: #999999;
 }
 
-..ConversationListItemView-container .text-container .timestamp {
+.ConversationListItemView-container .text-container .timestamp {
   color: #999999;
 }
