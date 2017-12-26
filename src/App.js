@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import ConversationListView from './components/ConversationListView'
-import MessageDetailView from './components/MessageDetailView'
+import ConversationListView from './components/ConversationListView/ConversationListView'
+import MessageDetailView from './components/MessageDetailView/MessageDetailView'
 
 class App extends Component {
   render() {
