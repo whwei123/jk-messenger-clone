@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
-import ConversationListView from './components/ConversationListView/ConversationListView'
-import MessageDetailView from './components/MessageDetailView/MessageDetailView'
+import AppBarHeaderView from './components/AppBarHeaderView';
+import ConversationListView from './components/ConversationListView/ConversationListView';
+import MessageDetailView from './components/MessageDetailView/MessageDetailView';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="container">
-          <ConversationListView />
+          <div className="container-left">
+            <AppBarHeaderView />
+            <ConversationListView />
+          </div>
           <MessageDetailView />
         </div>
       </div>

@@ -1,8 +1,8 @@
 .MessageDetailView-container {
-	background-color: #2BDAFF;
-  flex-grow: 3;
   display: flex;
+  flex: 3;
   flex-direction: column;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .MessageContents-container {
