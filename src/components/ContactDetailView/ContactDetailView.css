@@ -1,6 +1,6 @@
 .ContactDetailView-container {
   background-color: #0E5FBB;
-
+  flex-grow: 1;
   max-width: 420px;
   min-width: 200px;
   top: 0;
