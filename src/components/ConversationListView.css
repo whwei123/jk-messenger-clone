@@ -1,16 +1,4 @@
-.ConversationListView {
-  text-align: center;
-}
-
-.ConversationListView-spin {
-  animation: Text-spin infinite 0.5s linear;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 120px;
-}
-
-@keyframes Text-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.ConversationListView-container {
+  background-color: #2F8FC0;
+  flex-grow: 1;
 }

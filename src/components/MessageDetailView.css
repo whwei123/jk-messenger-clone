@@ -1,3 +1,4 @@
 .MessageDetailView-container {
 	background-color: #2BDAFF;
+  flex-grow: 3;
 }
